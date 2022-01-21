@@ -1,0 +1,27 @@
+{
+  "name": "easy-rtc",
+  "version": "1.0.0",
+  "description": "easy way to create webrtc",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . && npm run prettier -- --check .",
+    "prettier": "prettier --config .config/.prettierrc.json --ignore-path .config/.prettierignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yydounai1234/easy-rtc.git"
+  },
+  "keywords": [
+    "webrtc"
+  ],
+  "author": "yydounai@icloud.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yydounai1234/easy-rtc/issues"
+  },
+  "homepage": "https://github.com/yydounai1234/easy-rtc#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
+  }
+}

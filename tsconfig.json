@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "lib": [
+            "es2019",
+            "dom",
+            "es2020.promise",
+            "es2020.bigint",
+            "es2020.string"
+        ],
+        "target": "es2019",
+        "experimentalDecorators": true,
+        "strict": true,
+        "alwaysStrict": true,
+        // For tests
+        "resolveJsonModule": true,
+        // Linting
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "forceConsistentCasingInFileNames": true,
+        "importsNotUsedAsValues": "error",
+        // Library
+        "preserveConstEnums": true,
+        "declaration": true,
+        "sourceMap": true,
+        "isolatedModules": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        // Output
+        "outDir": "dist/",
+        "rootDir": "src/",
+        "newLine": "LF",
+    },
+    "include": [
+        "src"
+    ]
+}
